@@ -42,3 +42,12 @@ h3{
     letter-spacing:2px;
     word-spacing:4px;
 }
+.class-section{
+    background-color:lightgreen;
+    font-size:20px;
+    line-height:1.4em;
+    width:80%;
+    border:5px dashed darkgreen;
+    padding:10px;
+    margin:15px;
+}
