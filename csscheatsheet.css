@@ -38,4 +38,7 @@ p{font-family:Georgia, 'Times New Roman', Times, serif}
 h3{
     color:yellow;
     text-decoration:underline;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    word-spacing:4px;
 }
