@@ -8,3 +8,8 @@ font: 20px Comic Sans MS, cursive, sans-serif;
 line-height: 1.6em;
 }
 p{font-family:Georgia, 'Times New Roman', Times, serif}
+.table-section {
+    background-color:blueviolet;
+    font-size:21px;
+    line-height:1.4em;
+}
