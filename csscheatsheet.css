@@ -5,5 +5,6 @@ body{background-color:rgb(54, 174, 214);
 /*font-family: Comic Sans MS, cursive, sans-serif;
 font-size: 20px; font-weight: bold;*/
 font: 20px Comic Sans MS, cursive, sans-serif;
+line-height: 1.6em;
 }
 p{font-family:Georgia, 'Times New Roman', Times, serif}
