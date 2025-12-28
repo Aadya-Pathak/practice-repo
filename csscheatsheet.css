@@ -66,3 +66,13 @@ li{
     margin-bottom:8px;
     border-bottom:1px dotted gray;
 }
+.form-section{
+    background-color:lightpink;
+    font-size:20px;
+    line-height:1.4em;
+    width:80%;
+    border:5px double purple;
+    padding:10px;
+    margin:15px;
+    display:block;
+}
