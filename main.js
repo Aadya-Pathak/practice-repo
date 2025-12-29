@@ -26,3 +26,16 @@ console.log(s.substring(0,5).toLowerCase());
 console.log(s.split(''));
 const h="technology, computers, it, code";
 console.log(h.split(', '));
+//arrays - variables that hold multiple values
+const numbers=new Array(1,2,3,4,5);
+console.log(numbers);
+const fruits=['apples','oranges','pears',10,true];
+console.log(fruits);
+console.log(fruits[1]);
+fruits[5]='grapes';
+fruits.push('mangos');
+fruits.unshift('strawberries');
+fruits.pop();//remove last
+console.log(Array.isArray(fruits));
+console.log(fruits.indexOf('oranges'));
+console.log(fruits);
