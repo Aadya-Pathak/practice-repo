@@ -7,7 +7,7 @@ const a=30;
 console.log(a);
 //strings,numbers,boolean,null,undefined,symbol
 const name="Aditya";
-const age= 30;
+const ag= 30;
 const isCool= true;
 const rating=4.5;
 const x = null;
@@ -39,3 +39,33 @@ fruits.pop();//remove last
 console.log(Array.isArray(fruits));
 console.log(fruits.indexOf('oranges'));
 console.log(fruits);
+//object literals
+const person= { firstName= 'Luigi', 
+    lastName: 'Mangione',
+    age: 25,
+    hobbies: ['music','movies','sports'];
+}
+console.log(person);
+console.log(person.hobbies[1]);
+const{ firstName, lastName, age}= person;
+console.log(firstName, lastName);
+person.email='luigimangione@gmail.com';
+console.log(person);
+const todos{ id=1,
+    text='Take out trash',
+    isCompleted= true
+};
+{
+    id:2,
+    text='Meeting with boss',
+    isCompleted= true  
+}
+{    id:3,
+    text='Dentist appt',
+    isCompleted= false
+};
+console.log(todos);
+console.log(todos[1].text);
+const todoJSON= JSON.stringify(todos);
+console.log(todoJSON);
+//add properties
